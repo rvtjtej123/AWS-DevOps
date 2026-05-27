@@ -1,7 +1,6 @@
-* MVN Java older version installation *
-***************************************
-
-(From newer to older in aws Linux)
+**MVN Java older version installation**
+----
+> Note *(From newer to older in aws Linux)*
 
 sudo yum install java-1.8.0-openjdk-devel -y
 
