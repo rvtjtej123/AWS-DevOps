@@ -1,21 +1,11 @@
-          * Maven Commands *
+**Maven Commands**
 ***************************************
 
-* Cleans the Target Folder :
-   mvn clean : Deletes the target directory, removing all files from previous builds to ensure a fresh start.
-
-----------------------------------------------------------------------------------------------------------------------------------------------------
-
-* Validate :
-    mvn validate : Checks if project structure and pom.xml are correct. Checks if the project structure is correct and all dependencies are downloaded.
-
-----------------------------------------------------------------------------------------------------------------------------------------------------
-
-* Compile Project :
-    mvn compile : Compiles the source code (src/main/java) into bytecode (target/classes). 
-        What it does:
-          * Downloads dependencies
-          * Compiles src/main/java
+| Command | Purpose | What it does |
+|---|---|---|
+|mvn clean| Deletes the target directory, removing all files from previous builds to ensure a fresh start. *[ Cleans the Target Folder ]*|
+|mvn validate  | Checks if project structure and pom.xml are correct. Checks if the project structure is correct and all dependencies are downloaded. |
+|mvn compile | Compiles the source code (src/main/java) into bytecode (target/classes). *[ Compile Project ]*  | <ul><li>Downloads&nbsp;dependencies</li><li>Compiles src/main/java</li></ul> |
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
