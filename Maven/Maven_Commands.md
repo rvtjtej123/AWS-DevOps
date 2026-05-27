@@ -3,9 +3,9 @@
 
 | Command | Purpose | What it does |
 |---|---|---|
-|mvn clean| Deletes the target directory, removing all files from previous builds to ensure a fresh start. *[ Cleans the Target Folder ]*|
+|mvn clean| Deletes the target directory, removing all files from previous builds to ensure a fresh start.     |      <ul><li> Cleans the Target Folder  </ul></li>|
 |mvn validate  | Checks if project structure and pom.xml are correct. Checks if the project structure is correct and all dependencies are downloaded. |
-|mvn compile | Compiles the source code (src/main/java) into bytecode (target/classes). *[ Compile Project ]*  | <ul><li>Downloads&nbsp;dependencies</li><li>Compiles src/main/java</li></ul> |
+|mvn compile | Compiles the source code (src/main/java) into bytecode (target/classes).     | <ul><li>Downloads&nbsp;dependencies</li><li>Compiles src/main/java</li><li>Compile Project</li></ul> |
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
