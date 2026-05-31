@@ -1,4 +1,36 @@
 <h1 align="center"> ☆ Introduction of Maven ☆</h1>
+
+<h2 align="left"> ➤ Maven Build Lifecycle </h2>
+
+&nbsp;&nbsp; ● Maven uses the **JDK (Java Development Kit)** to compile and build Java applications.
+
+&nbsp;&nbsp; ● Maven cannot run without Java being installed.
+
+&nbsp;&nbsp; ● If we install Maven, it automatically installs JDK.21.
+
+&nbsp;&nbsp; ● Maven uses the JDK to compile Java applications.
+
+&nbsp;&nbsp; ● The JDK provides the compiler required to convert Java source code into executable bytecode.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **<h3> ✦ mvn validate:</h3>** 
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Validates the project structure and configuration. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Checks whether the pom.xml file exists and is valid
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Verifies that all required project information is correctly configured.
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Checks the project configuration and validates the pom.xml file.
+
+&nbsp;&nbsp;&nbsp;&nbsp;● `Short Version:` It checks the configuration. Ex.:  It checks whether pom.xml file is there or not.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **<h3> ✦ mvn compile:</h3>** 
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Compiles the source code and identifies syntax/compilation errors.
+
+&nbsp;&nbsp;&nbsp;&nbsp;● `Short Version:` Compiles Java source code into .class files and checks for syntax errors.
+
+
 <h2 align="left"> ➤ Build Tool </h2>
 
 **<h3><br>✦ Package & Dependency Management: </br></h3>**
@@ -25,9 +57,21 @@
 
 &nbsp;&nbsp; ● It will also compile the source code.
 
+<br>
+<br>
+
+  **<h3>✦ Testing: </h3>**  
+
+&nbsp;&nbsp; ● Testing is performed to verify that the application works correctly and is free from defects.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● **Types of Testing:** Unit Testing & Integration Testing
+
+| Unit Testing | Integration Testing |
+|---|---|
+|   <ul><li> Tests a small part (unit) of the application, such as a function, method, or class. |   <ul><li> Testing the interaction between multiple components/modules of an application |
+|   <ul><li> Usually performed by developers.|  <ul><li> Entire application testing.|
 
 
-&nbsp;&nbsp; ● 
+&nbsp;&nbsp; ● Maven can be used to run both Unit Testing and Integration Testing.
 
-&nbsp;&nbsp; ● 
 
