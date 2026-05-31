@@ -28,7 +28,30 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;● Compiles the source code and identifies syntax/compilation errors.
 
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Compile all Java source files.
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Generate .class files.
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Report syntax and compilation errors.
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Compilation is the process of converting Java source code (.java) into bytecode (.class) and checking for syntax/compilation errors.
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Compile means converting human-readable Java source code (.java) into machine-readable bytecode (.class) that the computer can
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; execute.
+
 &nbsp;&nbsp;&nbsp;&nbsp;● `Short Version:` Compiles Java source code into .class files and checks for syntax errors.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **<h3> ✦ mvn test:</h3>** 
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Compiles the application code (if not already compiled).
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Compiles the test code.
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Runs the unit testing
+
+&nbsp;&nbsp;&nbsp;&nbsp;● Runs Unit Tests to verify that individual components of the application work correctly.
 
 
 <h2 align="left"> ➤ Build Tool </h2>
