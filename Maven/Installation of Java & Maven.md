@@ -1,7 +1,6 @@
 <h1 align="center"> ☆ Installation of Java & Maven in Amazon Linux 2023 ☆</h1>
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;• **Java must be installed before Maven.**
+**★ NOTE: Java must be installed before Maven.**
 
 **➤ Update System Packages :**
 
@@ -38,7 +37,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `mvn --version`
 
 
-
+---------------------------------------------------------------------------------
+DELETE ALL THIS DOWN
 
 | Command | Purpose | Note |
 |---|---|---|
