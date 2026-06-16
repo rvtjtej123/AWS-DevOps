@@ -53,6 +53,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;● Runs Unit Tests to verify that individual components of the application work correctly.
 
+<h1 align="center"> </h1>
 
 <h2 align="left"> ➤ Build Tool </h2>
 
@@ -96,5 +97,22 @@
 
 
 &nbsp;&nbsp; ● Maven can be used to run both Unit Testing and Integration Testing.
+
+<h1 align="center"> </h1>
+
+**<h3>✦ In Short: </h3>**  
+
+&nbsp;&nbsp; ● mvn validate → Check configuration
+
+&nbsp;&nbsp; ● mvn compile → Compile code
+
+&nbsp;&nbsp; ● mvn test → Run unit tests
+
+&nbsp;&nbsp; ● mvn package → Create JAR/WAR
+
+&nbsp;&nbsp; ● mvn verify → Run integration checks
+
+&nbsp;&nbsp; ● mvn install → Store artifact in .m2
+
 
 
