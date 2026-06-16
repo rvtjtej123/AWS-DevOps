@@ -9,3 +9,7 @@ This is **bold**
 This is *italic*
 
 Run `mvn clean install`
+
+~~~
+git clone
+~~~
