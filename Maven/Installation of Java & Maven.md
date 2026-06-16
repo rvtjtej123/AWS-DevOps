@@ -38,20 +38,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `mvn --version`
 
 
----------------------------------------------------------------------------------
-DELETE ALL THIS DOWN
+<h1 align="center"> </h1>
 
-| Command | Purpose | Note |
-|---|---|---|
-| `sudo yum update -y` | Checks for updates and installs the latest available packages. | Update System Packages |
-|`dnf search corretto`| Lists all available JDK versions | Displays all available Amazon Corretto Java versions.  |
-||Copy the Package Name|Copy the package name before `.x86_64`. Example: java-23-amazon-corretto-headless|
-|`sudo yum install JDK_VERSION -y`	|Installs Java on the system.|Install Java|
-|`java --version`|Checks whether Java is installed successfully.|Verify Java Installation. <br> `Expected Output:` </br>• openjdk 17.x.x|
-|`sudo yum install maven -y`|Installs Apache Maven|Install Maven|
-|`mvn --version`|Checks whether Maven is installed successfully|Verify Maven Installation <br>  `Expected Output:` </br> • Apache Maven 3.x.x <br> • Java version: 17.x.x </br> |
+**<h3><br>✦ There are different package variants for Amazon Corretto 23 (Java 23):</br></h3>**
 
-<b>Note :</b>
+| Package | Purpose |
+|---|---|
+| java-23-amazon-corretto | Full Java Development Kit (JDK). Includes compiler (javac), runtime (java), and development tools. This is what most developers install. |
+|java-23-amazon-corretto-headless|JDK without GUI/X11 components. Smaller footprint, ideal for servers, containers, Spring Boot apps, Jenkins, etc.|
+|java-23-amazon-corretto-devel|Development tools package (compiler, headers, etc.). Often pulled in automatically by the main JDK package.|
+|java-23-amazon-corretto-debugsymbols|Debug symbols used for low-level debugging with tools like gdb. Rarely needed.|
+|java-23-amazon-corretto-javadocs|Offline Java API documentation. Not needed unless you want local docs.|
+|java-23-amazon-corretto-jmods|Java module files used by tools such as jlink to create custom runtimes. Advanced use case.|
 
 
-  
