@@ -21,18 +21,6 @@ git clone
 <h3 align="center"> **★ NOTE: Java must be installed before Maven.** </h3>
 <br><br>
 
-**➤ Update System Packages :**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `sudo yum update -y`
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Purpose: Displays all available Amazon Corretto Java versions.
-
-**➤ Copy the Package Name :** 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✦ Copy the package name before `.x86_64`
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✦ Example: `java-23-amazon-corretto-headless`
 
 **➤ Install Java :** 
 
@@ -50,7 +38,7 @@ git clone
 |---|---|
 | java-23-amazon-corretto | Full Java Development Kit (JDK). Includes compiler (javac), runtime (java), and development tools. This is what most developers install. |
 |java-23-amazon-corretto-headless|JDK without GUI/X11 components. Smaller footprint, ideal for servers, containers, Spring Boot apps, Jenkins, etc.|
-|java-23-amazon-corretto-devel|Development tools package (compiler, headers, etc.). Often pulled in automatically by the main JDK package.|
+
 
 
 <h1 align="center"> ☆ Introduction of Maven ☆</h1>
