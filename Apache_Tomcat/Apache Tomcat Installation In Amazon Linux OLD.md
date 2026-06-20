@@ -153,6 +153,9 @@ shutdown.sh
 ```
 -----
 
+----------------
+----------------------
+
 ### **Verify Tomcat Installation in Browser**
 
 ✦ We can check whether Tomcat is installed and running by accessing it from a web browser.
