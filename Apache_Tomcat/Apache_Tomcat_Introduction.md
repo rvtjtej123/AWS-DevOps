@@ -406,7 +406,7 @@ instead of:
 http://localhost:8080
 ```
 
----
+<h1 align="center"> </h1>
 
 ### **Short Note**
 
@@ -416,7 +416,7 @@ http://localhost:8080
 
 ----
 
-### **Manual Deployment Means**
+<h2 align="left"> ➤ Manual Deployment Means: </h2> 
 
 Manual Deployment is the process of deploying an application to a server by performing all steps manually without using automation tools.
 
@@ -446,10 +446,12 @@ Restart Tomcat and access:
 http://localhost:8080/myapp
 ```
 
----
+<h1 align="center"> </h1>
 
 ### **Short Note**
 
 ✦ Manual Deployment means deploying an application by manually copying and configuring files on the server.
 
 ✦ No automation tools such as Jenkins are used.
+
+---
