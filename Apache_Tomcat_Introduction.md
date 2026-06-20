@@ -92,7 +92,7 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ● Tomcat helps run these dynamic Java web applications.
 
-<h1 align="center"> </h1>
+----
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**✦ Static Content = Same Content for Everyone**
 
@@ -198,7 +198,7 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● **Dynamic Content** = Content changes based on the user, database, or real-time information.
 
-<h1 align="center"> </h1>
+----
 
 <h2 align="left"> ➤ Java Application Servers </h2>
 
@@ -238,7 +238,7 @@
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• **Flask + Gunicorn/uWSGI :** Flask applications also run on WSGI servers such as Gunicorn or uWSGI.
 
-<h1 align="center"> </h1>
+----
 
 <h2 align="left"> ➤ What is Dependency for Tomcat? </h2>
 
@@ -255,7 +255,7 @@
 |Tomcat 10|Java 11 or later|
 |Tomcat 11|Java 17 or later|
 
-<h1 align="center"> </h1>
+----
 
 <h2 align="left"> ➤ Tomcat Port Number: </h2>
 
@@ -275,7 +275,7 @@ If someone wants to visit your house, they use that number.
 
 Same thing happens in servers.
 
----
+<h1 align="center"> </h1>
 
 ### In Tomcat
 
@@ -295,7 +295,7 @@ http://localhost:8080
 
 the request goes to Tomcat through port `8080`.
 
----
+<h1 align="center"> </h1>
 
 ### Simple Meaning
 
@@ -309,7 +309,7 @@ Tomcat’s default door number is:
 8080
 ```
 
----
+<h1 align="center"> </h1>
 
 ### Real Example
 
@@ -325,7 +325,7 @@ Browser says:
 
 Tomcat receives it and shows the webpage.
 
----
+<h1 align="center"> </h1>
 
 ### Very Short Note
 
@@ -334,4 +334,4 @@ Tomcat receives it and shows the webpage.
 ✦ Apache Tomcat uses port `8080` by default to receive browser requests.
 
 
----------------
+----
