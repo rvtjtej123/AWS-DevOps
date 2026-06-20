@@ -197,3 +197,141 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● **Static Content** = Same content for every visitor.
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ● **Dynamic Content** = Content changes based on the user, database, or real-time information.
+
+<h1 align="center"> </h1>
+
+<h2 align="left"> ➤ Java Application Servers </h2>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**● Java applications can be deployed using different application servers:**
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**• Apache Tomcat :** Lightweight server used for Servlets, JSP, and Spring applications.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**• JBoss/WildFly :** Open-source enterprise application server by Red Hat.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**• GlassFish :** Open-source Jakarta EE application server.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**• IBM WebSphere :** Enterprise-grade application server by IBM.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**• Oracle WebLogic :** Enterprise-grade application server by Oracle.
+
+
+
+<h2 align="left"> ➤ .NET Application Server </h2>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**● Internet Information Services (IIS)**
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Developed by Microsoft.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Used to host and run .NET applications.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Acts as both a Web Server and an Application Server.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Commonly used for ASP.NET and .NET Core web applications.
+
+
+
+<h2 align="left"> ➤ Python Application Servers </h2>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**● Python web applications are typically deployed using a framework and a WSGI server:**
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• **Django + Gunicorn/uWSGI :** Django applications run on WSGI servers such as Gunicorn or uWSGI.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• **Flask + Gunicorn/uWSGI :** Flask applications also run on WSGI servers such as Gunicorn or uWSGI.
+
+<h1 align="center"> </h1>
+
+<h2 align="left"> ➤ What is Dependency for Tomcat? </h2>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**● A dependency is software that must be installed or available before another software can work.**
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**● For Apache Tomcat, the main dependency is: Java (JDK or JRE).**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**● Example :**
+
+
+| Tomcat Version | Required Java Version |
+|---|---|
+|Tomcat 9|Java 8 or later|
+|Tomcat 10|Java 11 or later|
+|Tomcat 11|Java 17 or later|
+
+<h1 align="center"> </h1>
+
+<h2 align="left"> ➤ Tomcat Port Number: </h2>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**● A port number is a communication endpoint through which applications receive requests.**
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**● Default Tomcat Port = 8080**
+
+### Example
+
+Suppose your house address is:
+
+```text
+House Number = 8080
+```
+
+If someone wants to visit your house, they use that number.
+
+Same thing happens in servers.
+
+---
+
+### In Tomcat
+
+Tomcat runs inside a server.
+
+Tomcat uses door number:
+
+```text
+8080
+```
+
+When a browser sends a request:
+
+```text
+http://localhost:8080
+```
+
+the request goes to Tomcat through port `8080`.
+
+---
+
+### Simple Meaning
+
+```text
+Port = Door Number
+```
+
+Tomcat’s default door number is:
+
+```text
+8080
+```
+
+---
+
+### Real Example
+
+You open browser and type:
+
+```text
+http://localhost:8080
+```
+
+Browser says:
+
+> "Send request to application running on port 8080."
+
+Tomcat receives it and shows the webpage.
+
+---
+
+### Very Short Note
+
+✦ Port number is a communication endpoint used by applications.
+
+✦ Apache Tomcat uses port `8080` by default to receive browser requests.
+
+
+---------------
