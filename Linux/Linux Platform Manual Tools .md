@@ -1,0 +1,185 @@
+## **Linux Platform – DevOps Tools**
+
+In a DevOps environment, different tools are used for different stages of the software development and deployment process.
+
+---
+
+### **1. Git & GitHub**
+
+Git and GitHub are mainly used for **Version Control** and **Source Code Management**.
+
+#### **VCS**
+
+**VCS** stands for **Version Control System**.
+
+✦ It helps developers track changes made to the source code.
+
+✦ Developers can check previous versions of the code.
+
+#### **SCM**
+
+**SCM** stands for **Source Code Management**.
+
+✦ It is used to store, manage, and track source code.
+
+---
+
+### **2. Maven**
+
+Maven is a **Build Tool** mainly used for Java applications.
+
+It helps automate the application build process.
+
+**Maven Can:**
+
+- Compile source code
+- Run tests
+- Package the application
+- Manage dependencies
+- Generate artifacts such as `.jar` and `.war` files
+
+### **Maven Build Flow**
+
+```text
+Source Code
+    ↓
+Compile
+    ↓
+Test
+    ↓
+Package
+    ↓
+JAR / WAR File
+```
+
+---
+
+### **3. Apache Tomcat**
+
+Apache Tomcat is a **Java Application Server**.
+
+It is used to deploy and run Java web applications.
+
+```text
+Java Application
+       ↓
+Maven Build
+       ↓
+WAR File
+       ↓
+Apache Tomcat
+       ↓
+Application Running
+```
+
+Tomcat can be used in different environments:
+
+- Development
+- QA
+- Pre-production
+- Production
+
+---
+
+### **4. SonarQube**
+
+SonarQube is a **Code Quality and Code Analysis Tool**.
+
+It analyses source code and helps identify problems.
+
+**SonarQube Checks:**
+
+- Code quality
+- Bugs
+- Vulnerabilities
+- Security issues
+- Code smells
+- Duplicate code
+
+```text
+Source Code
+    ↓
+SonarQube Analysis
+    ↓
+Code Quality Report
+```
+
+---
+
+### **5. Nexus**
+
+Nexus is an **Artifact Repository Manager**.
+
+It is used to store and manage application artifacts.
+
+**Examples of Artifacts:**
+
+```text
+.jar
+.war
+.zip
+.tar.gz
+```
+
+```text
+Source Code
+    ↓
+Maven Build
+    ↓
+JAR / WAR Artifact
+    ↓
+Nexus Repository
+```
+
+---
+
+## **Complete DevOps Flow**
+
+```text
+Developer Writes Code
+        ↓
+Git
+        ↓
+GitHub
+        ↓
+Maven
+(Build Application)
+        ↓
+SonarQube
+(Code Analysis)
+        ↓
+Nexus
+(Store Artifact)
+        ↓
+Apache Tomcat
+(Deploy Application)
+        ↓
+Users Access Application
+```
+
+---
+
+### **Easy Understanding**
+
+| Tool | Main Purpose |
+|---|---|
+| **Git** | Version Control |
+| **GitHub** | Store and manage source code |
+| **Maven** | Build Java applications |
+| **SonarQube** | Analyse code quality |
+| **Nexus** | Store artifacts |
+| **Tomcat** | Deploy and run Java web applications |
+
+---
+
+### **Short Note**
+
+✦ **Git & GitHub** → Manage source code.
+
+✦ **Maven** → Builds the application and creates artifacts.
+
+✦ **SonarQube** → Analyses code quality.
+
+✦ **Nexus** → Stores application artifacts.
+
+✦ **Tomcat** → Deploys and runs Java web applications.
