@@ -1,0 +1,368 @@
+## **Automation Tools in DevOps**
+
+Automation means using tools to perform tasks automatically instead of doing everything manually.
+
+### **Example**
+
+```text
+Manual:
+Developer manually builds → tests → deploys
+
+Automation:
+Jenkins automatically builds → tests → deploys
+```
+
+---
+
+## **1. Jenkins**
+
+Jenkins is an **Automation Server** mainly used for:
+
+- **CI** → Continuous Integration
+- **CD** → Continuous Delivery / Continuous Deployment
+
+Jenkins can automatically:
+
+```text
+Get Code
+   ↓
+Build Application
+   ↓
+Run Tests
+   ↓
+Analyse Code
+   ↓
+Create Artifact
+   ↓
+Deploy Application
+```
+
+Jenkins connects different DevOps tools.
+
+```text
+GitHub → Jenkins → Maven → SonarQube → Nexus → Tomcat/Kubernetes
+```
+
+---
+
+## **2. Ansible**
+
+Ansible is a **Configuration Management and Automation Tool**.
+
+It is used to automatically configure and manage servers.
+
+### **Without Ansible**
+
+```text
+Server 1 → Install Java
+Server 2 → Install Java
+Server 3 → Install Java
+...
+Server 100 → Install Java
+```
+
+### **With Ansible**
+
+```text
+Ansible
+   ↓
+Server 1 → Install Java
+Server 2 → Install Java
+Server 3 → Install Java
+...
+Server 100 → Install Java
+```
+
+Ansible can automate:
+
+- Installing software
+- Creating users
+- Updating packages
+- Configuring servers
+- Deploying applications
+
+---
+
+## **3. Docker**
+
+Docker is a **Containerization Tool**.
+
+It packages an application along with its dependencies into a container.
+
+```text
+Application
++ Java
++ Libraries
++ Dependencies
+        ↓
+Docker Container
+```
+
+### **Easy Understanding**
+
+```text
+Without Docker:
+
+Developer System → Application Works ✅
+Server           → Application Fails ❌
+```
+
+```text
+With Docker:
+
+Docker Container
+       ↓
+Developer System ✅
+Testing Server   ✅
+Production      ✅
+```
+
+---
+
+## **4. Kubernetes**
+
+Kubernetes is a **Container Orchestration Tool**.
+
+Docker creates and runs containers.
+
+Kubernetes manages multiple containers.
+
+It can:
+
+- Deploy containers
+- Scale containers
+- Restart failed containers
+- Load balance traffic
+- Manage multiple servers
+
+### **Easy Understanding**
+
+```text
+Docker
+   ↓
+Creates Containers
+
+Kubernetes
+   ↓
+Manages Containers
+```
+
+```text
+Docker      = Creates Containers
+Kubernetes  = Manages Containers
+```
+
+---
+
+## **5. Grafana**
+
+Grafana is mainly used for **Monitoring and Visualisation**.
+
+It displays data using dashboards and graphs.
+
+It can show:
+
+```text
+CPU Usage
+Memory Usage
+Server Health
+Application Performance
+Network Traffic
+```
+
+Example:
+
+```text
+Server Data
+     ↓
+Prometheus
+     ↓
+Grafana
+     ↓
+Dashboard / Graphs
+```
+
+---
+
+## **6. Prometheus**
+
+Prometheus is a **Monitoring and Metrics Collection Tool**.
+
+It collects information such as:
+
+```text
+CPU Usage
+Memory Usage
+Disk Usage
+Application Metrics
+Container Metrics
+```
+
+### **Prometheus and Grafana**
+
+```text
+Server / Application
+        ↓
+Prometheus collects metrics
+        ↓
+Grafana displays graphs
+```
+
+```text
+Prometheus = Collects Metrics
+Grafana    = Shows Metrics
+```
+
+---
+
+## **7. AWS**
+
+AWS is a **Cloud Computing Platform**.
+
+It provides cloud services such as:
+
+- **EC2** → Virtual Servers
+- **S3** → Storage
+- **RDS** → Databases
+- **VPC** → Networking
+- **IAM** → Access Management
+
+Example:
+
+```text
+Your Application
+       ↓
+AWS Cloud
+       ↓
+EC2 Server
+       ↓
+Users Access Application
+```
+
+---
+
+## **8. Terraform**
+
+Terraform is an **Infrastructure as Code (IaC) Tool**.
+
+It is used to create and manage infrastructure using code.
+
+Instead of manually creating:
+
+```text
+EC2
+Security Group
+VPC
+Subnet
+```
+
+We can write Terraform configuration files.
+
+```text
+Terraform Code
+       ↓
+terraform apply
+       ↓
+AWS Infrastructure Created
+```
+
+Terraform files use:
+
+```text
+.tf
+```
+
+Examples:
+
+```text
+main.tf
+variables.tf
+outputs.tf
+```
+
+---
+
+## **Complete DevOps Flow**
+
+```text
+Developer
+    ↓
+Git / GitHub
+    ↓
+Jenkins
+    ↓
+Maven
+    ↓
+SonarQube
+    ↓
+Docker
+    ↓
+Nexus
+    ↓
+Kubernetes
+    ↓
+AWS Cloud
+```
+
+### **Monitoring Flow**
+
+```text
+Application / Servers
+        ↓
+Prometheus
+        ↓
+Grafana
+        ↓
+Monitoring Dashboard
+```
+
+### **Infrastructure Creation**
+
+```text
+Terraform
+    ↓
+AWS Infrastructure
+```
+
+### **Server Configuration**
+
+```text
+Ansible
+    ↓
+Configure Servers Automatically
+```
+
+---
+
+## **Easy Summary**
+
+| Tool | Main Purpose |
+|---|---|
+| **Jenkins** | CI/CD and Automation |
+| **Ansible** | Configuration Management and Automation |
+| **Docker** | Containerization |
+| **Kubernetes** | Container Orchestration |
+| **Prometheus** | Collects Monitoring Metrics |
+| **Grafana** | Displays Metrics and Dashboards |
+| **AWS** | Cloud Computing Platform |
+| **Terraform** | Infrastructure as Code |
+
+---
+
+### **Short Note**
+
+✦ **Jenkins** → Automates CI/CD processes.
+
+✦ **Ansible** → Configures and manages servers automatically.
+
+✦ **Docker** → Packages applications into containers.
+
+✦ **Kubernetes** → Manages and orchestrates containers.
+
+✦ **Prometheus** → Collects monitoring metrics.
+
+✦ **Grafana** → Visualises monitoring data.
+
+✦ **AWS** → Provides cloud infrastructure and services.
+
+✦ **Terraform** → Creates and manages infrastructure using code.
